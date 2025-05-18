@@ -35,9 +35,7 @@ public:
 int main() {
     int marks;
     cin >> marks;
-
     Solution obj;
     obj.studentGrade(marks); // call the method using an object of Solution
-
     return 0;
 }

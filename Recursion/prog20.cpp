@@ -1,4 +1,4 @@
-//combination sum
+//combination sum where an element can be selected from the pool infinite number of times 
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -5,6 +5,7 @@ Since for any element to be added in an array, we need the exact next memory loc
 ![image](https://github.com/user-attachments/assets/dd2817e5-207b-44f6-af78-edd13567473f)
 
 A linked list is a data structure containing two crucial pieces of information, the first being the data and the other being the pointer to the next element. The ‘head’ is the first node, and the ‘tail’ is the last node in a linked list.
+
 ![image](https://github.com/user-attachments/assets/5ffc8712-28f7-47db-88d0-924483a0fe32)
 
 # Working

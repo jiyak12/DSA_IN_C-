@@ -51,3 +51,12 @@ Therefore, in the case of a 64 Bit system, it occupies or consumes more space th
 
 ![image](https://github.com/user-attachments/assets/2579f6ab-77b3-49b1-bc22-d68d4b38c16c)
 
+# Doubly Linked List
+- Characteristic of singly linked lists is their unidirectional nature where each node holds two pieces of information - the data and a pointer that indicates the address of the next node. This structure enables efficient forward navigation, but the absence of a backward pointer restricts reverse traversal.
+- Doubly linked list allow 2-way traversal by introducing two pointers in each node. This enables seamless traversal in both directions, making them a valuable tool for various advanced data structure applications.
+- In doubly linked list, Node* back; : The introduction of the back pointer is the key change from a singly linked list node. This pointer allows traversal in the backward direction, making it suitable for doubly linked lists.
+- In doubly linked list, Constructors: Both constructors have been updated to initialize the new back pointer. In the first constructor, Node(int data1, Node* next1, Node* back1), back is initialized with the provided value. In the second constructor, Node(int data1), the back is initialized to nullptr, just like the next.
+
+These changes differentiate the Node class for a doubly linked list, allowing it to maintain bidirectional links between nodes, as opposed to the unidirectional links in a singly linked list node.
+
+![image](https://github.com/user-attachments/assets/c1f6905d-7f07-43f6-bfd1-7c36776cdce2)

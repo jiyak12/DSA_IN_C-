@@ -39,5 +39,3 @@ The components of STL are the features provided by Standard Template Library (ST
 - An iterator is an object like a pointer that points to an element inside the container.
 - `auto iteratorName;` where auto keyword automatically detected container type itself. and iteratorName is name assigned to the iterator.
 ![image](https://github.com/user-attachments/assets/46ef8424-c84c-4a14-be7f-782a42da7403) ![image](https://github.com/user-attachments/assets/c0fdd204-f954-465b-a6b4-c8a59c862c2c)
-
-
